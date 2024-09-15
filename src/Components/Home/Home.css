@@ -1,0 +1,379 @@
+.body{
+  background: linear-gradient(rgba(38, 152, 13, 0.2), rgba(15, 143, 6, 0.2))
+}
+.check {
+  background-color: red;
+}
+
+.h_carousal {
+  box-shadow: 0 0 49px 0 aqua;
+  border-radius: 20px;
+  background-color: #5e6874;
+  
+  
+}
+.c_h5{
+  position: relative;
+  font-size: 69px;
+  align-items: center;
+  color: white;
+  /* margin-bottom: 20rem; */
+  -webkit-text-stroke: 2pt rgb(18, 20, 4);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.c_p{
+  position: relative;
+  font-size: 40px;
+  align-items: center;
+  color: rgb(255, 255, 255);
+ 
+  -webkit-text-stroke: .5pt rgb(20, 7, 4);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.c_b{
+  background-color: #f56960;
+  margin-bottom: 22rem;
+  padding: 20px 30px;
+  border-radius: 50px;
+  font-size: 25px;
+  color: white;
+}
+.c_b:hover{
+  background-color: #1462a6;
+  transition: .5s;
+}
+
+/* For screen width up to 320px */
+@media screen and (max-width: 320px) {
+  .c_h5 {
+    font-size: 50px; /* Adjust font size for smaller screens */
+    margin-bottom: 10rem; /* Adjust margin for smaller screens */
+  }
+}
+
+/* For screen width between 321px and 420px */
+@media screen and (min-width: 321px) and (max-width: 420px) {
+  .c_h5 {
+    font-size: 60px; /* Adjust font size */
+    margin-bottom: 15rem; /* Adjust margin */
+  }
+}
+
+/* For screen width between 421px and 720px */
+@media screen and (min-width: 421px) and (max-width: 720px) {
+  .c_h5 {
+    font-size: 80px; /* Adjust font size */
+    margin-bottom: 18rem; /* Adjust margin */
+  }
+}
+
+/* For screen width between 721px and 1080px */
+@media screen and (min-width: 721px) and (max-width: 1080px) {
+  .c_h5 {
+    font-size: 90px; /* Adjust font size */
+    margin-bottom: 20rem; /* Adjust margin */
+  }
+}
+
+/* For screen width above 1080px, the original styles apply */
+
+@media screen and (max-width: 320px) {
+  .h_carousal {
+    /* margin-top: 200px !important; */
+  
+  }
+}
+/* @media screen and (max-width: 320px) {
+  .h_carousal {
+    margin:  0 20px;
+  
+  }
+} */
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  .h_carousal {
+    margin: 0 40px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 720px) {
+  .h_carousal {
+    margin: 0 40px;
+  }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1080px) {
+  .h_carousal {
+    margin: 0 80px;
+  }
+}
+.carousal_i{
+  background-color: rgba(0, 0, 0, 0.9);
+  
+  
+}
+
+/* Background Image */
+.backImage {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/background.jpg") 50% 0 repeat-y fixed;
+    background-position: relative;
+    background-size: cover;
+    height: 800px;
+
+}
+/* Background Image */
+
+.banner1 {
+  background-image: url();
+  background-position: relative;
+  background-size: cover;
+  height: 500px;
+  /* background-color: rgba(73, 68, 60, 1); */
+}
+
+.heading h1 {
+  padding-right: 20px;
+  padding-left: 30px;
+  font-size: 90px;
+  padding-bottom: 30px;
+  padding-top: -40px;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 2pt rgb(20, 7, 4);
+  color: transparent;
+  background-image: linear-gradient(
+    -60deg,
+    rgb(200, 201, 201) 20%,
+    rgb(225, 225, 225) 35%,
+    rgb(30, 44, 123) 60%,
+    rgb(26, 53, 81) 35%
+  );
+  animation: backcolor 2s linear infinite alternate;
+  background-position: -1000px 0;
+  background-repeat: no-repeat;
+  width: 30%;
+  /* box-shadow: 0 0 50px 0 white;
+border-radius: 20px 50px 20px 50px; */
+  font-style: italic;
+}
+
+@keyframes backcolor {
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.new_p {
+  color: white;
+  font-size: 30px;
+}
+
+
+@media only screen and (max-width: 320px) {
+  .new_p {
+    font-size: 20px; 
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .new_p {
+    font-size: 25px; 
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 720px) {
+  .new_p {
+    font-size: 28px; 
+  }
+}
+
+@media only screen and (min-width: 721px) and (max-width: 1080px) {
+  .new_p {
+    font-size: 32px; 
+  }
+}
+
+.heading h1 {
+  padding-right: 20px;
+  padding-left: 30px;
+  font-size: 80px;
+  padding-bottom: 30px;
+  padding-top: -40px; /* Note: padding-top cannot be negative */
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 2pt rgb(20, 7, 4);
+  color: transparent;
+  background-image: linear-gradient(
+    -60deg,
+    rgb(200, 201, 201) 20%,
+    rgb(225, 225, 225) 35%,
+    rgb(30, 44, 123) 60%,
+    rgb(26, 53, 81) 35%
+  );
+  animation: backcolor 2s linear infinite alternate;
+  background-position: -1000px 0;
+  background-repeat: no-repeat;
+  width: 30%;
+  /* box-shadow: 0 0 50px 0 white;
+  border-radius: 20px 50px 20px 50px; */
+  font-style: italic;
+}
+
+@keyframes backcolor {
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .heading h1 {
+    font-size: 30px;
+    padding-right: 10px;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  .heading h1 {
+    font-size: 50px;
+    padding-right: 15px;
+    padding-left: 25px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 720px) {
+  .heading h1 {
+    font-size: 60px;
+    padding-right: 18px;
+    padding-left: 28px;
+  }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1080px) {
+  .heading h1 {
+    font-size: 80px;
+    padding-right: 20px;
+    padding-left: 30px;
+  }
+}
+/* Default styles for .card_section */
+.card_section {
+  background-color: rgb(244, 235, 235);
+  margin: 0 10px;
+  border-radius: 30px;
+}
+
+/* Media queries for different screen sizes */
+
+
+/* For screens between 721px and 1080px */
+@media only screen and (min-width: 721px) and (max-width: 1080px) {
+  .card_section {
+    margin: 0 40px; /* Use the default margin for screens between 721px and 1080px */
+  }
+}
+
+.heading2 {
+  
+  text-align: center;
+
+}
+
+.heading2 h5 {
+  padding-top: 40px;
+  font-size: 50px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: underline;
+
+}
+
+/* .heading2 p {
+  font-size: 20px;
+} */
+.custom_card:hover {
+  font-style: oblique;
+  background-color: rgb(226, 235, 235);
+  box-shadow: 0 0 20px 0 red;
+  transform: scale(1.05);
+  transition: transform 1s;
+}
+
+/* Media query for screen width up to 320px */
+@media screen and (max-width: 320px) {
+  .custom_card:hover {
+    font-style: normal; /* Reset font style */
+    box-shadow: none; /* Remove box shadow */
+    transform: none; /* Reset transform */
+  }
+}
+
+/* Media query for screen width between 321px and 480px */
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  .custom_card:hover {
+    transform: scale(
+      1.03
+    ); /* Adjusted scale for screens between 321px and 480px */
+  }
+}
+
+/* Media query for screen width between 481px and 720px */
+@media screen and (min-width: 481px) and (max-width: 720px) {
+  .custom_card:hover {
+    transform: scale(
+      1.07
+    ); /* Adjusted scale for screens between 481px and 720px */
+  }
+}
+
+/* Media query for screen width between 721px and 1080px */
+@media screen and (min-width: 721px) and (max-width: 1080px) {
+  .custom_card:hover {
+    transform: scale(
+      1.1
+    ); /* Adjusted scale for screens between 721px and 1080px */
+  }
+}
+.customcard_main {
+  margin: 0 60px;
+  background: url("../../images/video1.mp4");
+}
+
+/* Entertainment */
+
+.heading4 {
+  text-align: center;
+}
+
+.heading4 h5 {
+  font-size: 50px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding-top: 20px;
+  text-decoration: underline;
+  
+}
+
+.heading4 p {
+  font-size: 25px;
+  padding: 0 20px;
+}
+
+.Entertainment {
+  box-shadow: 0 0 30px 0 greenyellow;
+  background-color: rgb(187, 234, 234);
+  border-radius: 30px;
+  margin: -30px 30px;
+}
+
+.Entertainment:hover {
+  background-color: rgb(236, 223, 207);
+  box-shadow: 0 0 40px 0 black;
+  font-style: italic;
+}
+.video video {
+  padding: 15px;
+  margin: 10px;
+  box-shadow: 0 0 20px 2px black;
+  border-radius: 5px 50px 5px 50px;
+}
+
+.heading4 h5:hover {
+  color: green;
+}

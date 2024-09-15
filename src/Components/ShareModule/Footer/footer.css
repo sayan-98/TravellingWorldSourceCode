@@ -1,0 +1,61 @@
+.imgStyle {
+  width: 170px;
+  height: 55px;
+  object-fit: contain;
+}
+
+
+.linkStyle {
+  text-decoration: none;
+}
+
+.linkStyle span {
+  margin-left: 0.5rem;
+}
+.footer_background{
+  background-color: rgba(4, 105, 246, 0.612);
+}
+
+/* Default styles for the YouTube embed */
+.youtube-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.youtube-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Media queries for different screen sizes */
+@media screen and (max-width: 320px) {
+  .youtube-container {
+      padding-bottom: 100%; /* Adjust aspect ratio as needed */
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  .youtube-container {
+      padding-bottom: 75%; /* Adjust aspect ratio as needed */
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 720px) {
+  .youtube-container {
+      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1080px) {
+  .youtube-container {
+      padding-bottom: 42.1875%; /* Adjust aspect ratio as needed */
+  }
+}
+
+/* Add more media queries for larger screen sizes if necessary */

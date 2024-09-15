@@ -1,0 +1,18 @@
+.ContactForm{
+   
+    padding:  50px 0;
+}
+.main_contact{
+    background-color: bisque;
+}
+.main_contact h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 128, 0);
+    padding-top: 20px;
+}
+.c_button{
+    background-color: skyblue;
+    border-radius: 50px 50px 50px 50px;
+    padding: 10px 50px;
+    
+}

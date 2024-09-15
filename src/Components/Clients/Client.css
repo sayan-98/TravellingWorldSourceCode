@@ -1,0 +1,64 @@
+.oplo {
+    width: 50px;
+    height: 2px;
+    display: block;
+    background-color: #eeb068d8;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 600;
+    color: #222;
+  }
+  .lolo {
+    background: #c78e4db3;
+  }
+  img {
+    width: 90%;
+  }
+  section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .btn {
+    border-radius: 0;
+    padding: 14px 38px;
+  }
+  .btn-brand {
+    color: rgba(16, 15, 15, 0.751);
+    font-weight: 500;
+    border-color: #a7a70a7f;
+    background-color: transparent;
+  }
+  .btn-brand:hover {
+    border-color: #c6eb0c;
+    background-color: #1118e1d8;
+    color: #fff;
+  }
+  .heading4 {
+    text-align: center;
+  }
+  .heading4 h5 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+  }
+  .heading4 p {
+    font-size: 25px;
+    padding: 0 20px;
+  }
+  .custom_card:hover {
+    font-style: oblique;
+    background-color: rgb(226, 235, 235);
+    box-shadow: 0 0 20px 0 rgba(3, 38, 233, 0.668);
+    transform: scale(0.95);
+    transition: transform 1s;
+  }
+  
+  .customcard_main {
+    margin: 0 60px;
+  }
+  
